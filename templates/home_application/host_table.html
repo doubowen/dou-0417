@@ -1,0 +1,9 @@
+% for host in bk_host_list:
+<tr name=“host” data-ip="${host.get('bk_host_innerip')}" data-bk_cloud_id="${host.get('bk_cloud_id')}">
+    <td>${host.get('bk_host_innerip')}</td>
+    <td>${host.get('bk_os_name')}</td>
+    <td>${host.get('bk_host_name')}</td>
+    <td>${host.get('bk_cloud_name')}</td>
+    <td>${host.get('bk_cloud_id')}</td>
+</tr>
+% endfor
